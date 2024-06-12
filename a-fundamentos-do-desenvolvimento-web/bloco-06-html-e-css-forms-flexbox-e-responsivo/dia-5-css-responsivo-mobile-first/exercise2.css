@@ -1,0 +1,126 @@
+html {
+  box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-size: 16px;
+}
+
+body {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header p {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+nav li {
+    display: flex;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+footer p {
+    font-size: 0.75rem;
+}
+
+footer h3 {
+    font-size: 0.85rem;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    header p {
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+    p {
+        font-size: 1.25rem;
+    }
+    nav li {
+        font-size: 1.2rem;
+    }
+    footer p {
+        font-size: 0.85rem;
+    }
+    footer h3 {
+        font-size: 0.95rem;
+    }
+    li {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    h1 {
+        font-size: 2.0rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    header p {
+        font-size: 2.2rem;
+        font-weight: 800;
+    }
+    p {
+        font-size: 1.35rem;
+    }
+    nav li {
+        font-size: 1.4rem;
+    }
+    footer p {
+        font-size: 1rem;
+    }
+    footer h3 {
+        font-size: 1.2rem;
+    }
+    li {
+        font-size: 1.35rem;
+    }
+    .aside-container {
+        display: flex;
+        justify-content: center;
+    }
+    body {
+        max-width: 1180px;
+    }
+    .aside-one, .aside-two {
+        display: flex;
+        padding: 20px;
+    }
+
+    .aside-two {
+        border-left: solid 1px gray;
+    }
+}
