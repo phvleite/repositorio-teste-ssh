@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400;500;600;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Secular+One&family=Smooch&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+}
+body
+{
+    margin: 0 auto;
+    padding: 40px;
+    background-color: gainsboro;
+}
+header
+{
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+main
+{
+    width: 900px;
+    margin: 0 auto;
+}
+fieldset
+{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    margin-bottom: 30px;
+    border: solid 1px lightgray;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px #c0c0c099;
+}
+fieldset#moradia
+{
+    box-shadow: none;
+}
+legend
+{
+    margin: 0px 15px;
+}
+.container-fluid
+{
+    margin-bottom: 15px;
+}
+.btn
+{
+    width: 100px;
+}
